@@ -69,7 +69,7 @@ services:
     restart: unless-stopped
 
   cmsweb-kafka:
-    image: "bitnami/kafka:latest"
+    image: "bitnamilegacy/kafka:latest"
     environment:
       KAFKA_CFG_NODE_ID: 0
       KAFKA_CFG_PROCESS_ROLES: controller,broker
